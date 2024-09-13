@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>    
-        <script src="java.js"></script>
+        
         <link rel="stylesheet" href="style.css">
         <!-- <nav>
             <a href="Home">Home</a> <a href="About">About</a><a href="Portfolio">Portfolio</a>
@@ -36,6 +36,34 @@
     
         <div class="box1"></div>
 <body>
+    <div class="slideshow-container">
+    <div class="slidescontainer">
+        <div class="slide mySlidesfade ">
+            <div class="numbertext">1 / 3</div>
+            <img class="img" src="https://img1.wsimg.com/isteam/ip/cb9f90d7-9561-4574-afca-6adffa58ffa1/Pop%20_In%20the%20army%20now_%208%20March%201943.jpg/:/rs=w:1300,h:800" style="width:100%">
+            <div class="text">Blemished WW2 Photo</div>
+        </div>
+        <div class="slide">
+            <div class="numbertext">2 / 3</div>
+            <img class="img" src="https://img1.wsimg.com/isteam/ip/cb9f90d7-9561-4574-afca-6adffa58ffa1/Pop%20_In%20the%20army%20now_%208%20March%201943_colored.jpg/:/rs=w:1300,h:800" style="width:100%">
+            <div class="text">Blemishes Cleaned Up</div>
+        </div>
+        <div class="slide">
+            <div class="numbertext">3 / 3</div>
+            <img class="img" src="https://img1.wsimg.com/isteam/ip/cb9f90d7-9561-4574-afca-6adffa58ffa1/Grandparents_Xmasgift.png/:/rs=w:1300,h:800" style="width:100%">
+            <div class="text">Black & White</div>
+        </div>
+    </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
     
+    <script src="java.js"></script>
 </body>
 </html>
