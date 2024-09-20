@@ -84,6 +84,30 @@ nav{
 
 }
 
+.OL{
+    background-color: lightseagreen;
+    width: 50vh;
+    height: 30vh;
+    justify-content: center;   
+    margin: auto;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+.form {
+    background-color: #717171;
+    width: 250px;   
+    height: 125px;
+    justify-content: center;
+    margin: auto;
+    border: 4px;
+    border-style: double;
+
+}
+
+
+
 .box2{
     margin: 0;
     padding: 0;
@@ -235,3 +259,20 @@ nav{
     from {opacity: .2} 
     to {opacity: 1}
 }
+.flex-container5{
+    display:flex;
+    background-color: rgb(79, 79, 150);
+    height: 2vh;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        body {
+          background-color: blue;
+        }
+      }
+    
+      @media screen and (max-width: 480px) {
+        body {
+          background-color: burlywood;
+        }
+      }
